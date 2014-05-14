@@ -1,19 +1,25 @@
-# Guia de Codigo
+# Guía de Código
 
 
 ## Introducción
 
-Una guía de estilo de un lenguaje de programación es un conjunto de recomendaciones sobre la forma de dar formato a los programas. El interés de utilizar un estilo específico es facilitar la reutilización de código y la detección de errores. Existen muchos estilos de programación y no se puede decir que uno sea mejor que otro, pero sí que es conveniente adoptar algún estilo determinado y utilizarlo de forma consistente.
+Una guía de estilo de un lenguaje de programación es un conjunto de recomendaciones sobre la forma de dar formato a los programas. El interés de utilizar un estilo específico es facilitar la re utilización de código y la detección de errores. Existen muchos estilos de programación y no se puede decir que uno sea mejor que otro, pero sí que es conveniente adoptar algún estilo determinado y utilizarlo de forma consistente.
 
 Esta guia se basa en las recomendaciones hechas por el grupo PHP-FIG (PHP Framework Interop Group)[1] en el cual participan los autores de los frameworks PHP mas populares.
 
-[1](PHP-FIG)[http://www.php-fig.org/]
+[1] - [PHP-FIG](http://www.php-fig.org/)
+
+## Referencias
+
+[PHP-FIG](http://www.php-fig.org/)
+
+[Code Guide by @mdo](http://adrianayala.mx/code-guide/es/)
+
+[Guía de estilo para PHP](http://www.mclibre.org/consultar/php/otros/ot_guiaestilo.html)
 
 ## Guia
 
 - Los archivos DEBEN emplear solamente la codificación UTF-8 sin BOM para el código PHP.
-
-
 
 ## Comentarios
 
@@ -24,7 +30,7 @@ Esta guia se basa en las recomendaciones hechas por el grupo PHP-FIG (PHP Framew
 /**
 * Nombre del archivo
 * Ruta:              /ruta/archivo
-* Fecha Creacion:    18/Ene/2014
+* Fecha Creación:    18/Ene/2014
 *
 * Descripción breve
 *
@@ -37,8 +43,8 @@ Esta guia se basa en las recomendaciones hechas por el grupo PHP-FIG (PHP Framew
 * @link             http://www.example.org
 *
 * Revisiones:
-*       Bob (18/Ene/2014)   - Descripcion
-*       Susi (18/Ene/2014)  - Descripcion Metodo modificado
+*       Bob (18/Ene/2014)   - Descripción
+*       Susi (18/Ene/2014)  - Descripción Método modificado
 *                           - Otro cambio  
 */
 ?>
@@ -46,7 +52,7 @@ Esta guia se basa en las recomendaciones hechas por el grupo PHP-FIG (PHP Framew
 
 Mas info: http://en.wikipedia.org/wiki/Javadoc
 
-- Todos los metodos deben estar comentados.
+- Todos los métodos deben estar comentados.
 
 ```php
 <?php
@@ -62,7 +68,7 @@ Mas info: http://en.wikipedia.org/wiki/Javadoc
 
 - Delimitadores de bloque PHP
 
-Los framentos PHP deben delimitarse con <?php ... ?> y no con <? ... ?>.
+Los fragmentos PHP deben delimitarse con <?php ... ?> y no con <? ... ?>.
 
 ```php
 <?php
@@ -71,7 +77,7 @@ Los framentos PHP deben delimitarse con <?php ... ?> y no con <? ... ?>.
 ?>
 ```
 
-Tambien se puede usar
+También se puede usar
 
 ```php
 <?= $this->var ?>
